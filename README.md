@@ -19,7 +19,7 @@
 
 - Move the `themes.json` file `~/.config/com.github.johnfactotum.Foliate/`. 
 - If you are using the flatpak version of the app, move the `themes.json` file to `~/.var/app/com.github.johnfactotum.Foliate/config/com.github.johnfactotum.Foliate/`.
-- Select your desired flavour from the Foliate's in-app settings. 
+- Select your desired flavour from Foliate's in-app settings. 
 
 ## 💝 Thanks to
 
