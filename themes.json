@@ -5,7 +5,7 @@
       "fg-color": "rgb(205,214,244)",
       "bg-color": "rgb(30,30,46)",
       "link-color": "rgb(245, 224, 220)",
-      "invert": false,
+      "invert": true,
       "dark-mode": true
     },
     {
@@ -13,7 +13,7 @@
       "fg-color": "rgb(202, 211, 245)",
       "bg-color": "rgb(36, 39, 58)",
       "link-color": "rgb(244, 219, 214)",
-      "invert": false,
+      "invert": true,
       "dark-mode": true
     },
     {
@@ -21,7 +21,7 @@
       "fg-color": "rgb(198, 208, 245)",
       "bg-color": "rgb(48, 52, 70)",
       "link-color": "rgb(242, 213, 207)",
-      "invert": false,
+      "invert": true,
       "dark-mode": true
     },
     {
