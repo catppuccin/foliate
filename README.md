@@ -17,13 +17,19 @@
 
 ## Usage
 
+### v2
 - Move the `themes.json` file `~/.config/com.github.johnfactotum.Foliate/`. 
 - If you are using the flatpak version of the app, move the `themes.json` file to `~/.var/app/com.github.johnfactotum.Foliate/config/com.github.johnfactotum.Foliate/`.
 - Select your desired flavour from Foliate's in-app settings. 
 
+### v3
+- Copy the config file `catppuccin-*.json` on `~/.config/com.github.johnfactotum.Foliate/themes/`
+- If you're using Flatpak version, the files should be placed in `~/.var/app/com.github.johnfactotum.Foliate/config/com.github.johnfactotum.Foliate/themes/`.
+
 ## 💝 Thanks to
 
 - [ghostx31](https://github.com/ghostx31)
+- [ʟɪᴍᴇ@ᴠᴏɪᴅ](https://github.com/lime-desu)
 
 &nbsp;
 
