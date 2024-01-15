@@ -1,0 +1,13 @@
+{
+  "label": "Catppuccin Macchiato",
+  "light": {
+    "fg": "rgb(76, 79, 105)",
+    "bg": "rgb(239, 241, 245)",
+    "link": "rgb(220, 138, 120)"
+  },
+  "dark": {
+    "fg": "rgb(202, 211, 245)",
+    "bg": "rgb(36, 39, 58)",
+    "link": "rgb(244, 219, 214)"
+  }
+}
