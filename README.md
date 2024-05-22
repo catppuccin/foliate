@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://johnfactotum.github.io/foliate/"/>Foliate</a>
+	Catppuccin for <a href="https://johnfactotum.github.io/foliate/">Foliate</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -12,19 +12,38 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/foliate/main/assets/screenshot.webp"/>
+	<img src="assets/preview.webp"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mocha.webp"/>
+</details>
 
 ## Usage
 
 ### v2
-- Move the `themes.json` file `~/.config/com.github.johnfactotum.Foliate/`. 
-- If you are using the flatpak version of the app, move the `themes.json` file to `~/.var/app/com.github.johnfactotum.Foliate/config/com.github.johnfactotum.Foliate/`.
-- Select your desired flavour from Foliate's in-app settings. 
+
+1. Download/move the `themes.json` file to either `~/.config/com.github.johnfactotum.Foliate/` or `~/.var/app/com.github.johnfactotum.Foliate/config/com.github.johnfactotum.Foliate/` if you are using the Flatpak version of the app.
+2. Select your desired flavor from Foliate's in-app settings.
 
 ### v3
-- Copy the config file `catppuccin-*.json` on `~/.config/com.github.johnfactotum.Foliate/themes/`
-- If you're using Flatpak version, the files should be placed in `~/.var/app/com.github.johnfactotum.Foliate/config/com.github.johnfactotum.Foliate/themes/`.
+
+- Download/move the flavor file(s) of your choice from [`themes/`](./themes/) to either `~/.config/com.github.johnfactotum.Foliate/themes/` or `~/.var/app/com.github.johnfactotum.Foliate/config/com.github.johnfactotum.Foliate/themes/` if you are using Flatpak version of the app.
 
 ## 💝 Thanks to
 
