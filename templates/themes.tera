@@ -1,8 +1,8 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "2.2.0"
+  filename: "themes.json"
 ---
-
 {
   "themes": [
 {%- for _, flavor in flavors %}

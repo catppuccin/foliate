@@ -3,4 +3,4 @@ _default:
 
 build:
   whiskers templates/foliate.tera
-  whiskers templates/themes.tera > themes.json
+  whiskers templates/themes.tera
