@@ -1,13 +1,12 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "2.2.0"
   matrix:
     - flavor: [frappe, macchiato, mocha]
   filename: "themes/catppuccin-{{ flavor.identifier }}.json"
 ---
 
 {%- set latte = flavors.latte.colors -%}
-{%- set palette = flavor.colors -%}
 
 {
   "label": "Catppuccin {{ flavor.name }}",
@@ -17,8 +16,8 @@ whiskers:
     "link": "{{ css_rgb(color=latte.rosewater) }}"
   },
   "dark": {
-    "fg": "{{ css_rgb(color=palette.text) }}",
-    "bg": "{{ css_rgb(color=palette.base) }}",
-    "link": "{{ css_rgb(color=palette.rosewater) }}"
+    "fg": "{{ css_rgb(color=text) }}",
+    "bg": "{{ css_rgb(color=base) }}",
+    "link": "{{ css_rgb(color=rosewater) }}"
   }
 }
