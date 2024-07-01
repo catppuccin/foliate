@@ -1,0 +1,19 @@
+---
+whiskers:
+  version: "2.2.0"
+  filename: "themes.json"
+---
+{
+  "themes": [
+{%- for _, flavor in flavors %}
+    {
+      "theme-name": "Catppuccin {{ flavor.name }}",
+      "fg-color": "{{ css_rgb(color=flavor.colors.text) }}",
+      "bg-color": "{{ css_rgb(color=flavor.colors.base) }}",
+      "link-color": "{{ css_rgb(color=flavor.colors.rosewater) }}",
+      "invert": {{ flavor.dark }},
+      "dark-mode": {{ flavor.dark }}
+    }{% if not loop.last %},{% endif %}
+{%- endfor %}
+  ]
+}
