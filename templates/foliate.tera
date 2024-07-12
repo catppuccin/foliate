@@ -13,11 +13,11 @@ whiskers:
   "light": {
     "fg": "{{ css_rgb(color=latte.text)  }}",
     "bg": "{{ css_rgb(color=latte.base) }}",
-    "link": "{{ css_rgb(color=latte.rosewater) }}"
+    "link": "{{ css_rgb(color=latte.blue) }}"
   },
   "dark": {
     "fg": "{{ css_rgb(color=text) }}",
     "bg": "{{ css_rgb(color=base) }}",
-    "link": "{{ css_rgb(color=rosewater) }}"
+    "link": "{{ css_rgb(color=blue) }}"
   }
 }
